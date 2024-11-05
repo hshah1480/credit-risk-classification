@@ -1,6 +1,6 @@
 # Module 20 Challenge
 
-## credit-risk-classification
+## credit risk classification
 
 ## Instructions
 ### The instructions for this Challenge are divided into the following subsections:
