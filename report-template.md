@@ -11,12 +11,12 @@ The machine learning model design process began with ingesting the labels into a
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+* The classification report which takes into account the model's accuracy revealed that the healthy loans had a precision score of 100%, and a recall of 99%. 
+* For the non-healthy loans, the precision and recall were 85% and 99%, respectively. 
+* The overall performance of the model was calculated to be 99%.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
-Overall, the accuracy seems to be good enough to start exploring this kind of algorithms in a bank, however, I would prefer to start running a pilot with new data to assess model's reliability.
-It's important to note that the effectiveness of the creditworthiness model heavily depends on the quality and relevance of the data collected. Therefore, it's crucial to have a comprehensive and reliable dataset to achieve accurate predictions.
+* Overall, the accuracy seems to be good enough to start exploring this kind of algorithms in a bank, however, I would prefer to start running a pilot with new data to assess model's reliability.
+* It's important to note that the effectiveness of the creditworthiness model heavily depends on the quality and relevance of the data collected. Therefore, it's crucial to have a comprehensive and reliable dataset to achieve accurate predictions.
