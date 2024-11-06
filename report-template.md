@@ -1,14 +1,13 @@
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+### purpose of the analysis.
+Building a model that can accurately identify the creditworthiness of borrowers is crucial for P2P lending services. Such a model allows lenders to evaluate the risk associated with lending to a particular borrower, set appropriate interest rates, and make well-informed decisions about loan approvals. By leveraging historical borrower data and various financial indicators, lenders can assess the probability of default and make more reliable lending decisions.
+
+### Stages of the machine learning process - as part of this analysis.
+The machine learning model design process began with ingesting the labels into a model to split the data into training and testing sets. To determine the loan lending creditworthiness of an individual I used a logistic regression.
 
 ## Results
 
@@ -19,9 +18,5 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Overall, the accuracy seems to be good enough to start exploring this kind of algorithms in a bank, however, I would prefer to start running a pilot with new data to assess model's reliability.
+It's important to note that the effectiveness of the creditworthiness model heavily depends on the quality and relevance of the data collected. Therefore, it's crucial to have a comprehensive and reliable dataset to achieve accurate predictions.
